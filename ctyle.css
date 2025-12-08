@@ -45,3 +45,9 @@ button:active {
     transform: none !important;
     box-shadow: none !important;
 }
+
+.clear:disabled:hover {
+    transform: none;
+    box-shadow: none;
+    /* Можно добавить pointer-events: none */
+}
