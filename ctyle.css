@@ -22,3 +22,7 @@ button {
     border-radius: 20px;
     background-color: #f0bbbd;
 }
+
+.clear {
+    margin-bottom: 24px;
+}
