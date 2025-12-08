@@ -52,6 +52,13 @@ button:active {
     /* Можно добавить pointer-events: none */
 }
 
+button:disabled:hover {
+    /* убрать ВСЕ hover-эффекты для ЛЮБОЙ disabled кнопки */
+    transform: none !important;
+    box-shadow: none !important;
+    scale: 1 !important;
+}
+
 @media (max-width: 600px) {
    
     .number { 
