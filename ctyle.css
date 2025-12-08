@@ -33,3 +33,7 @@ button:hover {
     scale: 1.1;
      box-shadow: 0 4px 12px rgba(110, 46, 48, 0.3);
 }
+
+button:active {
+    background-color: #dbb4b8;
+}
