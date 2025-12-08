@@ -51,3 +51,15 @@ button:active {
     box-shadow: none;
     /* Можно добавить pointer-events: none */
 }
+
+@media (max-width: 600px) {
+   
+    .number { 
+        font-size: 56px; 
+    }
+    button { 
+        width: 70px;  
+        height: 44px; 
+        font-size: 18px; 
+    }
+}
