@@ -10,8 +10,15 @@ if (currentCount === 0) {
 }
 
 ChangedButton.addEventListener('click', function() {
+   
+    currentCount = currentCount + 1;
+  
+    if (currentCount > 0) {
+        ClearBtn.disabled = false;   
+    }
 
-    currentCount=currentCount+1;   
     NumberChanged.textContent = currentCount;
+   
+});
 
-})
+

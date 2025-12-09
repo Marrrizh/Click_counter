@@ -59,6 +59,11 @@ button:disabled:hover {
     scale: 1 !important;
 }
 
+button:disabled:active {
+    background-color: none !important;
+}
+
+
 @media (max-width: 600px) {
    
     .number { 
